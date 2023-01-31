@@ -1,7 +1,6 @@
 {
-    "author": "akandevic@gmail.com",
     "manifest_version": 3,
-    "default_locale": "en",
+    "author": "akandevic@gmail.com",
     "name": "Open Code",
     "version": "1.0.0",
     "description": "Open any active github repository in vscode web",
