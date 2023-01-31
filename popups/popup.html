@@ -7,12 +7,22 @@
         <title>Open Code</title>
     </head>
     <body>
-        <h1>Open Code</h1>
-        <p>Open any github/gitlab repository on VS Codeweb.</p>
-        <button></button>
+        <template id="li_template">
+            <li>
+              <a>
+                <h3 class="title">Tab Title</h3>
+                <p class="pathname">Tab Pathname</p>
+              </a>
+            </li>
+          </template>
 
-        <p>Number of Open Github Tabs</p>
-        <p id="numOpenGithubTabs"></p>
+        <h1>Open Code</h1>
+        <p>Open any active github repository in VSCode web.</p>
+        <p>Number of Active Github Repos</p>
+        <p id="numOfOpenGithubTabs"></p>
+
+        <ul></ul>
+
         <script src="./popup.js" type="module"></script>
     </body>
 
