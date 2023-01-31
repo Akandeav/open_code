@@ -1,7 +1,10 @@
 {
+    "author": "akandevic@gmail.com",
     "manifest_version": 3,
+    "default_locale": "en",
     "name": "Open Code",
-    "version": 1.0,
+    "version": "1.0.0",
+    "description": "Open any active github repository in vscode web",
     "icons": {
         "16": "icons/16.png",
         "32": "icons/32.png",
@@ -16,6 +19,6 @@
     ],
     "permissions": [
         "tabs",
-        "activeTabs"
+        "activeTab"
     ]
 }
